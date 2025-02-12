@@ -152,12 +152,12 @@ The clustering can be visualized along first two principal components as below.
 </p>
 
 The clustering results into 5 neat clusters and after checking most frequent products in them, we can conclude following:
-- Cluster 1 results into 5428 consumers having a very strong preference for water seltzer sparkling water aisle.
-- Cluster 2 results into 55784 consumers who mostly order fresh vegetables followed by fruits.
-- Cluster 3 results into 7948 consumers who buy packaged produce and fresh fruits mostly.
-- Cluster 4 results into 37949 consumers who have a very strong preference for fruits followed by fresh vegetables.
-- Cluster 5 results into 99100 consumers who orders products from many aisles. Their mean orders are low compared to other clusters which tells us that either they are not frequent users of Instacart or they are new users and do not have many orders yet. 
-
+- Cluster 1 results into 55379 consumers who mostly order fresh vegetables followed by fruits.
+- Cluster 2 results into 98656 consumers who orders products from many aisles. Their mean orders are low compared to other clusters which tells us that either they are not frequent users of Instacart or they are new users and do not have many orders yet. 
+- Cluster 3 results into 5370 consumers having a very strong preference for water seltzer sparkling water aisle.
+- Cluster 4 results into 38848 consumers who have a very strong preference for fruits followed by fresh vegetables.
+- Cluster 5 results into 7956 consumers who buy packaged produce and fresh fruits mostly.
+  
 ## Markest Basket Analysis
 
 Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more or less likely to buy another group of items. Market basket analysis may provide the retailer with information to understand the purchase behavior of a buyer. This information can then be used for purposes of cross-selling and up-selling, in addition to influencing sales promotions, loyalty programs, store design, and discount plans.
