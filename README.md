@@ -44,16 +44,15 @@ This project structure offers a systematic approach, breaking down tasks into ma
     - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
 
 <p align="center">
-  <img width="300" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/dow.png">
+  <img width="300" height="200" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/dow.png">
 </p>
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/orders.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/orders.png">
 </p>  
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/heatmap.png">
-</p>
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/heatmap.png">
 
 - **products:** This file contains the list of total 49688 products and their aisle as well as department. The number of products in different aisles and different departments are different.
 
@@ -64,8 +63,7 @@ This project structure offers a systematic approach, breaking down tasks into ma
     - The percentage of reorder items in this set is 58.97%.
     
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/prior.png">
-</p>
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/prior.png">
     
     
 - **order_products_train:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
@@ -74,7 +72,7 @@ This project structure offers a systematic approach, breaking down tasks into ma
     - The percentage of reorder items in this set is 59.86%.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/train.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/train.png">
 </p>
     
 ## Exploratory Data Analysis
@@ -83,58 +81,58 @@ For the analysis I combined all of the separate data files into one single dataf
 - This plot shows most popular aisles based on total products bought.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-aisles.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/popular-aisles.png"
 </p>
 
 - As we can see in below plot that the reorder percentage of day-to-day food items is high and for other products such as vitamins, first-aids, beauty products, etc. reorder percentage is low. This is true as we buy only groceries regularly and do not buy those items in every order.
 
 <p align="center">
-<img width="400" height="220" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png"> 
-<img width="400" height="220" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png"> 
+<img width="400" height="220" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/aisle-high-reorder.png"> 
+<img width="400" height="220" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/aisle-low-reorder.png"> 
 <p/>
 
 - The below plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-departments.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/popular-departments.png">
 </p>
 
 - The below plot shows most popular products. As we can see there are many organic products in the most popular products.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Most-popular-products.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/Most-popular-products.png">
 </p>
 
 - We can see that there are less number of organic products but their Mean reorder percentage is high. This tells us that we should have more organic products in the store.
 
 <p align="center">
-    <img width="400" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Total-organic-inorganic-products.png"/> 
-    <img width="400" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Reorder-organic-inorganic-products.png"/>
+    <img width="400" height="250" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/Total-organic-inorganic-products.png">
+    <img width="400" height="250" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/Reorder-organic-inorganic-products.png">
 </p>
 
 
 - We can plot add-to-cart-order and mean reorder percentage. As we can see the lower the add-to-cart-order higher is the reorder percentage. This makes sense as we mostly buy things first that are required on day-to-day basis.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Add-to-cart-VS-reorder.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/Add-to-cart-VS-reorder.png">
 </p>
 
 - In the below plot of reorder percentage and number of product purchase, we see a ceiling effect. Many people try different product once and they do not reorder again. Also, there are users who buy certain products regularly. 
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/reorder-total-orders.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/reorder-total-orders.png">
 </p>
 
 - We can see that the total unique users of products having highest reorder ratio are only few (1-15 only). This means that these users like these products and would buy regularly.
 
 <p align="center">
-  <img width="500" height="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/reorder-df.png">
+  <img width="500" height="400" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/reorder-df.png">
 </p>
 
 - In the below plot of cumulative total users per product vs products, we can see that 85% of the users buy only 10000 products out of 49688 products. If we are interested in shelf space optimization, we should have only these 10000 products. Here, I assume that the profit from remaining 39688 products are not significant high. If we had prices of these products, we could have considered the products having high revenue, high reorder percentage and high total product sale.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cumsum_products.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/cumsum_products.png">
 </p>
 
 ## Customer Segmentation
@@ -144,13 +142,13 @@ Customer segmentation is the process of dividing customers into groups based on 
 I then performed Principal component analysis to reduce dimensions as KMeans does not produce good results on higher dimensions. Using 10 principal components I carried out KMeans clustering. I chose optimal number of clusters as 5 using Elbow method shown below.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/elbow.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/elbow.png">
 </p>
 
 The clustering can be visualized along first two principal components as below.
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cluster.png">
+  <img width="600" height="400" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/cluster.png">
 </p>
 
 The clustering results into 5 neat clusters and after checking most frequent products in them, we can conclude following:
@@ -272,26 +270,26 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 **Neural Network Model Architecture and Performance:**
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN%20Architecture.png">
+  <img width="400" height="200" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/NN%20Architecture.png">
 </p>
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Report.png">
+  <img width="400" height="200" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/NN-Report.png">
 </p>
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Performance.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/NN-Performance.png">
 </p>
 
 
 **XGBoost Model's Performance and Feature Importance:**
 
 <p align="center">
-  <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost-Report.png">
+  <img width="400" height="200" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/XGBoost-Report.png">
 </p>
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Performance.png">
+  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/XGBoost%20Performance.png">
 </p>
 
 <p align="center">
