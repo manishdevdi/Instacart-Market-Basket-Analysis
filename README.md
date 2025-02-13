@@ -272,7 +272,7 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 
 Clone the repository and install dependencies:
 ### Clone this repository
-git clone https://github.com/yourusername/instacart-market-basket-analysis.git
+git clone https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git
 cd instacart-market-basket-analysisInstall dependencies
 
 ### Install required libraries
