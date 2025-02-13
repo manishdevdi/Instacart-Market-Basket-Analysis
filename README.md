@@ -275,7 +275,7 @@ Clone the repository and install dependencies:
 git [clone]([https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git)
 
 ### Install required libraries
-pip install -r requirements.txt
+[pip install -r requirements.txt](https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/requirements.txt)
 
 ## 🚀 Future Improvements
 
