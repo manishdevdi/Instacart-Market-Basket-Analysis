@@ -1,13 +1,20 @@
-# Instacart-Market-Basket-Analysis
-
+# 📊 Instacart Market Basket Analysis
 ## Introduction
 Instacart is an American technology company that operates as a same-day grocery delivery and pick up service in the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners. The order is shopped and delivered by an Instacart personal shopper.
 
-### Objectives:
-- Analyze the anonymized [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data) of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
-- Find out hidden association between products for better cross-selling and upselling
-- Perform customer segmentation for targeted marketing and anticipate customer behavior
-- Build a Machine Learning model to predict which previously purchased product will be in user’s next order
+### 🚀 Project Overview
+
+Instacart Market Basket Analysis aims to uncover customer purchasing behavior by analyzing transactional data. This project applies data science techniques to extract meaningful insights from customer orders, helping businesses optimize product recommendations and inventory management.
+
+### 📌 Key Objectives
+
+- Understand purchasing patterns of Instacart customers.
+
+- Identify frequently bought items together using association rule mining.
+
+- Segment customers based on their buying habits.
+
+- Predict future purchases using machine learning models.
 
 ### Project Structure
 ```
@@ -28,20 +35,19 @@ Instacart is an American technology company that operates as a same-day grocery 
 
 This project structure offers a systematic approach, breaking down tasks into manageable steps, with each notebook focusing on a specific task in the data analysis and modeling pipeline.
 
-## Data Description
+### 📂 Dataset
 
-- **aisles:** This file contains different aisles and there are total 134 unique aisles.
+The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data), containing 3 million grocery orders from 200,000 users. The dataset includes:
 
-- **departments:** This file contains different departments and there are total 21 unique departments.
+- order_products_prior.csv - Prior orders of users
 
-- **orders:** This file contains all the orders made by different users. From below analysis, we can conclude following:
-    - There are total 3421083 orders made by total 206209 users.
-    - There are three sets of orders: Prior, Train and Test. The distributions of orders in Train and Test sets are similar whereas the distribution of orders in Prior set is different.
-    - The total orders per customer ranges from 0 to 100.
-    - Based on the plot of 'Orders VS Day of Week' we can map 0 and 1 as Saturday and Sunday respectively based on the assumption that most of the people buy groceries on weekends.
-    - Majority of the orders are made during the day time.  
-    - Customers order once in a week which is supported by peaks at 7, 14, 21 and 30 in 'Orders VS Days since prior order' graph.
-    - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
+- orders.csv - Order metadata
+
+- products.csv - Product details
+
+- aisles.csv - Aisle details
+
+- departments.csv - Department details
 
 <p align="center">
   <img width="300" height="200" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/dow.png">
