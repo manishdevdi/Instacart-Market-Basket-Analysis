@@ -14,6 +14,20 @@ Instacart Market Basket Analysis aims to uncover customer purchasing behavior by
 
 - Predict future purchases using machine learning models.
 
+### 📂 Dataset
+
+The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data), containing 3 million grocery orders from 200,000 users. The dataset includes:
+
+- order_products_prior.csv - Prior orders of users
+
+- orders.csv - Order metadata
+
+- products.csv - Product details
+
+- aisles.csv - Aisle details
+
+- departments.csv - Department details
+
 ### Project Structure
 ```
 .
@@ -32,21 +46,6 @@ Instacart Market Basket Analysis aims to uncover customer purchasing behavior by
 <br />
 
 This project structure offers a systematic approach, breaking down tasks into manageable steps, with each notebook focusing on a specific task in the data analysis and modeling pipeline.
-
-### 📂 Dataset
-
-The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data), containing 3 million grocery orders from 200,000 users. The dataset includes:
-
-- order_products_prior.csv - Prior orders of users
-
-- orders.csv - Order metadata
-
-- products.csv - Product details
-
-- aisles.csv - Aisle details
-
-- departments.csv - Department details
-
 
 ## Exploratory Data Analysis
 For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
@@ -273,8 +272,7 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 
 Clone the repository and install dependencies:
 # Clone this repository
-git clone https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git
-cd Instacart-Market-Basket-Analysis
+git [clone]([https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git)
 
 # Install required libraries
 pip install -r requirements.txt
@@ -288,7 +286,7 @@ pip install -r requirements.txt
 - Analyze seasonal trends in purchases.
 
 - Integrate with real-time transaction data for live recommendations.
-- 
+  
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit issues, feature requests, or pull requests to improve the project.
@@ -301,7 +299,7 @@ This project is licensed under the MIT License.
 
 💼 [LinkedIn](https://www.linkedin.com/in/manish-devdi-63bb78234/) 
 
-🌟 If you found this project useful, don’t forget to star ⭐ the repository!
+## 🌟 If you found this project useful, don’t forget to star ⭐ the repository!
 
 
     
