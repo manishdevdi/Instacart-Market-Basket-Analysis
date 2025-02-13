@@ -47,38 +47,7 @@ The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/i
 
 - departments.csv - Department details
 
-<p align="center">
-  <img width="300" height="200" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/dow.png">
-</p>
 
-<p align="center">
-  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/orders.png">
-</p>  
-
-<p align="center">
-  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/heatmap.png">
-
-- **products:** This file contains the list of total 49688 products and their aisle as well as department. The number of products in different aisles and different departments are different.
-
-- **order_products_prior:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
-    
-    - In this file there is an information of total 3214874 orders through which total 49677 products were ordered.
-    - From the 'Count VS Items in cart' plot, we can say that most of the people buy 1-15 items in an order and there were a maximum of 145 items in an order.
-    - The percentage of reorder items in this set is 58.97%.
-    
-<p align="center">
-  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/prior.png">
-    
-    
-- **order_products_train:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
-    - In this file there is an information of total 131209 orders through which total 39123 products were ordered.
-    - From the 'Count VS Items in cart' plot, we can say that most of the people buy 1-15 items in an order and there were a maximum of 145 items in an order.
-    - The percentage of reorder items in this set is 59.86%.
-
-<p align="center">
-  <img width="600" height="300" src="https://github.com/manishdevdi/Instacart-Market-Basket-Analysis/blob/main/Plots/train.png">
-</p>
-    
 ## Exploratory Data Analysis
 For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
 
@@ -300,9 +269,39 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
   <img width="500" height="750" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Feature%20Importance%20Plot.png">
 </p>
 
+## ⚙️ Installation & Setup
 
-## Future Work
+Clone the repository and install dependencies:
+# Clone this repository
+git clone https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git
+cd Instacart-Market-Basket-Analysis
 
-- Utilize Collaborative filtering to recommend products to a customer. 
+# Install required libraries
+pip install -r requirements.txt
+
+## 🚀 Future Improvements
+
+- Implement deep learning-based recommendation models.
+
+- Improve data cleaning for better accuracy.
+
+- Analyze seasonal trends in purchases.
+
+- Integrate with real-time transaction data for live recommendations.
+- 
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit issues, feature requests, or pull requests to improve the project.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 📬 Connect with Me
+
+💼 [LinkedIn](https://www.linkedin.com/in/manish-devdi-63bb78234/) 
+
+🌟 If you found this project useful, don’t forget to star ⭐ the repository!
+
 
     
