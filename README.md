@@ -47,7 +47,8 @@ The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/i
 
 This project structure offers a systematic approach, breaking down tasks into manageable steps, with each notebook focusing on a specific task in the data analysis and modeling pipeline.
 
-## Exploratory Data Analysis
+## 📊 Exploratory Data Analysis
+
 For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
 
 - This plot shows most popular aisles based on total products bought.
@@ -132,14 +133,13 @@ The clustering results into 5 neat clusters and after checking most frequent pro
   
 ## Markest Basket Analysis
 
-Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more or less likely to buy another group of items. Market basket analysis may provide the retailer with information to understand the purchase behavior of a buyer. This information can then be used for purposes of cross-selling and up-selling, in addition to influencing sales promotions, loyalty programs, store design, and discount plans.
+Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more or less likely to buy another group of items. Market basket analysis may provide the retailer with information to understand the purchase behavior of a buyer. 
 
 Market basket analysis scrutinizes the products customers tend to buy together, and uses the information to decide which products should be cross-sold or promoted together. The term arises from the shopping carts supermarket shoppers fill up during a shopping trip.
 
 Association Rule Mining is used when we want to find an association between different objects in a set, find frequent patterns in a transaction database, relational databases or any other information repository.
 
-The most common approach to find these patterns is Market Basket Analysis, which is a key technique used by large retailers like Amazon, Flipkart, etc to analyze customer buying habits by finding associations between the different items that customers place in their “shopping baskets”. The discovery of these associations can help retailers develop marketing strategies by gaining insight into which items are frequently purchased together by customers. The strategies may include:
-
+The most common approach to find these patterns is Market Basket Analysis, which is a key technique used by large retailers like Amazon, Flipkart, etc to analyze customer buying habits by finding associations between the different items that customers place in their “shopping baskets”. 
 - Changing the store layout according to trends
 - Customers behavior analysis
 - Catalog Design
@@ -271,10 +271,10 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 ## ⚙️ Installation & Setup
 
 Clone the repository and install dependencies:
-# Clone this repository
+### Clone this repository
 git [clone]([https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git)
 
-# Install required libraries
+### Install required libraries
 pip install -r requirements.txt
 
 ## 🚀 Future Improvements
