@@ -41,10 +41,9 @@ The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/i
 ├── ANN Model.ipynb                             : Neural Network model for product reorder prediction
 ├── XGBoost Model.ipynb                         : XGBoost model for product reorder prediction
 ├── LICENSE                                     : License
-└── README.md                                   : Project Report 
+└── README.md                                   : Project Report
 ```
 <br />
-
 This project structure offers a systematic approach, breaking down tasks into manageable steps, with each notebook focusing on a specific task in the data analysis and modeling pipeline.
 
 ## 📊 Exploratory Data Analysis
