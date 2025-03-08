@@ -47,10 +47,11 @@ The dataset is sourced from Instacart’s open [data](https://www.kaggle.com/c/i
 This project structure offers a systematic approach, breaking down tasks into manageable steps, with each notebook focusing on a specific task in the data analysis and modeling pipeline.
 
 ## 📈 Methods Used
-- Data Cleaning: Handled missing values and outliers.
-- Exploratory Data Analysis (EDA): Visualizations using Matplotlib and Seaborn.
-- Association Rule Mining: Applied Apriori algorithm for product recommendations.
-- Clustering: K-means clustering for customer segmentation.
+- **Data Cleaning:** Handled missing values and outliers.
+- **Exploratory Data Analysis (EDA):** Visualizations using Matplotlib and Seaborn.
+- **Association Rule Mining:** Applied Apriori algorithm for product recommendations.
+- **Clustering:** K-means clustering for customer segmentation.
+  
 ## ⚙️ Installation & Setup
 
 Clone the repository and install dependencies:
