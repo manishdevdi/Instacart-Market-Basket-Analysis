@@ -54,7 +54,7 @@ This project structure offers a systematic approach, breaking down tasks into ma
   
 ## ⚙️ Installation & Setup
 
-Clone the repository and install dependencies:
+   Clone the repository and install dependencies:
 ### Clone this repository
 git clone https://github.com/manishdevdi/Instacart-Market-Basket-Analysis.git
 cd instacart-market-basket-analysisInstall dependencies
